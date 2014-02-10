@@ -2,7 +2,7 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('portfolio app', function() {
+describe('darwinFail', function() {
 
   beforeEach(function() {
     browser().navigateTo('public/index.html');

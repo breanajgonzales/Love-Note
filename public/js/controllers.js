@@ -2,13 +2,16 @@
 
 /* Controllers */
 
-angular.module('portfolioApp.controllers', [])
+angular.module('darwinFail.controllers', [])
     .controller('HomeController', ['$scope', function($scope) {
         $scope.image1 = true;
 
         $scope.toggle = function() {
             $scope.image1 = !$scope.image1;
         };
+    }])
+    .controller('MostPopularController', ['$scope', function($scope) {
+
     }])
     .controller('AboutController', ['$scope', function($scope) {
 

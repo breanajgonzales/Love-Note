@@ -1,6 +1,6 @@
 {
-    "name": "portfolio-seed",
-    "description": "A starter project for the Portfolio project",
+    "name": "darwin-fail",
+    "description": "Darwin fail website",
     "repository": "https://github.com/dstephenson/portfolio-seed.git",
     "engines": {
         "node": "~0.10.23"

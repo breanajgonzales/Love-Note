@@ -3,7 +3,7 @@
 /* Directives */
 
 
-angular.module('portfolioApp.directives', [])
+angular.module('darwinFail.directives', [])
     .directive('ngToggle', function() {
         return {
             replace: true,

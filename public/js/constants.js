@@ -2,6 +2,6 @@
 
 /* Constants */
 
-angular.module('portfolioApp.constants', [])
+angular.module('darwinFail.constants', [])
     .constant('version', '0.1')
-    .constant('baseTitle', 'Portfolio Seed Project | ');
+    .constant('baseTitle', 'Darwin Fail | ');

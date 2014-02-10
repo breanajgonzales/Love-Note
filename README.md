@@ -1,6 +1,6 @@
-# The seed for Portfolio project
+# Darwin Fail
 
-This project is an application skeleton for your portfolio Web app.  It uses the Bower package manager to handle
+It uses the Bower package manager to handle
 front-end dependencies, NodeJS to handle the Web server and Karma (a NodeJS dependency) to run unit tests.
 
 ## How to use portfolio-seed
