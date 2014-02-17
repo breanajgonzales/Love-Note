@@ -37,3 +37,11 @@ div.portfolio-showcase table tr th {
 div.portfolio-showcase table tr.heading {
     background-color: #808080;
 }
+
+.grey {
+    background-image: url("/public/img/kindajean.png");
+}
+
+.column-position {
+    padding-bottom: 40px;
+}

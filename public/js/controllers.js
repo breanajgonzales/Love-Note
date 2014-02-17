@@ -9,7 +9,11 @@ angular.module('darwinFail.controllers', [])
         $scope.toggle = function() {
             $scope.image1 = !$scope.image1;
         };
+        $scope.onYouTubePlayerReady = function() {
+
+        }
     }])
+
     .controller('MostPopularController', ['$scope', function($scope) {
 
     }])
