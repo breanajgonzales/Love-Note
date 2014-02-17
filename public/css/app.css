@@ -45,3 +45,8 @@ div.portfolio-showcase table tr.heading {
 .column-position {
     padding-bottom: 40px;
 }
+
+.btn-red {
+    backround-color: #DC2725;
+    border-color: #DC2725;
+}
