@@ -3,7 +3,7 @@
 /* Directives */
 
 
-angular.module('darwinFail.directives', [])
+angular.module('loveNote.directives', [])
     .directive('ngToggle', function() {
         return {
             replace: true,

@@ -2,7 +2,7 @@
 
 /* Filters */
 
-angular.module('darwinFail.filters', [])
+angular.module('loveNote.filters', [])
     .filter('interpolate', ['version', function (version) {
         return function (text) {
             return String(text).replace(/\%VERSION\%/mg, version);

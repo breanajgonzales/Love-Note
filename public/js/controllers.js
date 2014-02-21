@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('darwinFail.controllers', [])
+angular.module('loveNote.controllers', [])
     .controller('HomeController', ['$scope', function($scope) {
         $scope.image1 = true;
 
@@ -14,9 +14,6 @@ angular.module('darwinFail.controllers', [])
         }
     }])
 
-    .controller('MostPopularController', ['$scope', function($scope) {
-
-    }])
     .controller('AboutController', ['$scope', function($scope) {
 
     }])

@@ -11,7 +11,7 @@ app.run(['$rootScope', '$window', 'srvAuth',
 		// Executed when the SDK is loaded
 		FB.init({
 			appId: '245978618918275',
-			channelUrl: 'Darwin/public/js/fbconnect.js',
+			channelUrl: 'Love-Note/public/js/fbconnect.js',
 			/*
 			 Set if you want to check the authentication status
 			 at the start up of the app

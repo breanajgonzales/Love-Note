@@ -6,7 +6,7 @@ describe('HomeController', function () {
     var scope; //we'll use this scope in our tests
 
     //mock Application to allow us to inject our own dependencies
-    beforeEach(angular.mock.module('darwinFail.controllers'));
+    beforeEach(angular.mock.module('loveNote.controllers'));
 
     //mock the controller for the same reason and include $rootScope and $controller
     beforeEach(angular.mock.inject(function ($rootScope, $controller) {

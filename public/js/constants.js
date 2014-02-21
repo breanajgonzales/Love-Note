@@ -2,6 +2,6 @@
 
 /* Constants */
 
-angular.module('darwinFail.constants', [])
+angular.module('loveNote.constants', [])
     .constant('version', '0.1')
-    .constant('baseTitle', 'Darwin Fail | ');
+    .constant('baseTitle', 'Love Note | ');

@@ -1,6 +1,6 @@
 {
-    "name": "darwin-fail",
-    "description": "Darwin fail website",
+    "name": "love-note",
+    "description": "Love Note",
     "repository": "https://github.com/sos12/Love-Note.git",
     "engines": {
         "node": "~0.10.23"

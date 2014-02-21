@@ -3,7 +3,7 @@
 /* jasmine specs for filters go here */
 
 describe('filter', function() {
-  beforeEach(module('darwinFail.filters'));
+  beforeEach(module('loveNote.filters'));
 
 
   describe('interpolate', function() {

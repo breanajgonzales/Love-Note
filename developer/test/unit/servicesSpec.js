@@ -5,7 +5,7 @@
 describe('service', function () {
     var scope;
 
-    beforeEach(module('darwinFail.services'));
+    beforeEach(module('loveNote.services'));
 
     //mock the service for the same reason and include $rootScope and $service
     beforeEach(angular.mock.inject(function ($rootScope) {

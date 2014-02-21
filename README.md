@@ -1,17 +1,17 @@
-# Darwin Fail
+# Love Note
 
 It uses the Bower package manager to handle
 front-end dependencies, NodeJS to handle the Web server and Karma (a NodeJS dependency) to run unit tests.
 
-## How to use portfolio-seed
+## How to setup Love-Note
 
-- Create an empty repository at GitHub (maybe portfolio)
+- Create an empty repository at GitHub
 - Open up your terminal
 - Run the following commands
 
 ```
 cd /tmp # make sure this is a directory that exists
-git clone --bare git@github.com:DojoDevCamp/portfolio-seed.git
+git clone --bare https://github.com/sos12/Love-Note.git
 cd portfolio-seed.git
 git push --mirror git@github.com:portfolio.git # this will be different for you
 cd ..
@@ -120,6 +120,4 @@ info.
     server/
         web-server.js     --> simple development webserver based on node.js
 
-## Contact
 
-For more information, please contact the instructor

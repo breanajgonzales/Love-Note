@@ -1,34 +1,26 @@
 'use strict';
 
-var darwinFail = angular.module('darwinFail', [
+var loveNote = angular.module('loveNote', [
         'ngRoute',
-        'darwinFail.services',
-        'darwinFail.controllers',
-        'darwinFail.constants',
-        'darwinFail.filters',
-        'darwinFail.directives'
+        'loveNote.services',
+        'loveNote.controllers',
+        'loveNote.constants',
+        'loveNote.filters',
+        'loveNote.directives'
     ])
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/home',
             {templateUrl: 'partials/home.html',
                 controller: 'HomeController',
-                title: 'Darwin Fail'});
+                title: 'Home'});
         $routeProvider.when('/about',
             {templateUrl: 'partials/about.html',
                 controller: 'AboutController',
-                title: 'About Page'});
+                title: 'About'});
         $routeProvider.when('/contact',
             {templateUrl: 'partials/contact.html',
                 controller: 'ContactController',
-                title: 'Contact Page'});
-        $routeProvider.when('/portfolio',
-            {templateUrl: 'partials/portfolio.html',
-                controller: 'PortfolioController',
-                title: 'Portfolio Page'});
-        $routeProvider.when('/popular',
-            {templateUrl: 'partials/mostpopular.html',
-                controller: 'MostPopularController',
-                title: 'Most Popular'});
+                title: 'Contact'});
         $routeProvider.otherwise(
             {redirectTo: '/home'});
     }])
