@@ -12,18 +12,4 @@ angular.module('loveNote.controllers', [])
         $scope.onYouTubePlayerReady = function() {
 
         }
-    }])
-
-    .controller('AboutController', ['$scope', function($scope) {
-
-    }])
-    .controller('ContactController', ['$scope', function($scope) {
-
-    }])
-    .controller('PortfolioController', ['$scope', 'PortfolioListService', function($scope, PortfolioListService) {
-        $scope.portfolioList = {};
-
-        PortfolioListService.success(function(data) {
-            $scope.portfolioList = data;
-        });
     }]);
