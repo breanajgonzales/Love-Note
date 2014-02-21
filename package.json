@@ -1,7 +1,7 @@
 {
     "name": "darwin-fail",
     "description": "Darwin fail website",
-    "repository": "https://github.com/dstephenson/portfolio-seed.git",
+    "repository": "https://github.com/sos12/Love-Note.git",
     "engines": {
         "node": "~0.10.23"
     },

@@ -2,7 +2,7 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('darwinFail', function() {
+describe('loveNote', function() {
 
   beforeEach(function() {
     browser().navigateTo('public/index.html');
@@ -60,13 +60,13 @@ describe('darwinFail', function() {
     describe('portfolio', function() {
 
     beforeEach(function() {
-      browser().navigateTo('#/portfolio');
+      browser().navigateTo('#/home');
     });
 
 
     it('should render portfolio when user navigates to /portfolio', function() {
       expect(element('[ng-view] p:first').text()).
-        toMatch(/partial for portfolio/);
+        toMatch(/partial for home/);
     });
 
   });
