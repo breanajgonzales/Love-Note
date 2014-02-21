@@ -13,14 +13,6 @@ var loveNote = angular.module('loveNote', [
             {templateUrl: 'partials/home.html',
                 controller: 'HomeController',
                 title: 'Home'});
-        $routeProvider.when('/about',
-            {templateUrl: 'partials/about.html',
-                controller: 'AboutController',
-                title: 'About'});
-        $routeProvider.when('/contact',
-            {templateUrl: 'partials/contact.html',
-                controller: 'ContactController',
-                title: 'Contact'});
         $routeProvider.otherwise(
             {redirectTo: '/home'});
     }])
