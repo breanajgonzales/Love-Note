@@ -15,7 +15,7 @@ var loveNote = angular.module('loveNote', [
                 title: 'Home'});
         $routeProvider.when('/about',
             {templateUrl: 'partials/about.html',
-                controller: 'AboutController',
+                controller: 'UsController',
                 title: 'About'});
         $routeProvider.when('/contact',
             {templateUrl: 'partials/contact.html',
