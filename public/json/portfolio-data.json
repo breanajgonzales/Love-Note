@@ -1,4 +1,0 @@
-[
-    "Entry One",{ "name": "Entry One", "description": "This is an entry", "imageUrl": "/public/img/portfolio-one.gif" },
-    "Entry Two",{ "name": "Entry Two", "description": "This is also an entry", "imageUrl": "/public/img/portfolio-one.gif"}
-]
