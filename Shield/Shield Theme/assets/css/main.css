@@ -14,7 +14,13 @@
    ========================================================================== */
 @font-face {
 	font-family: 'Lato';
-	src:url('fonts/Lato/Lato-Black.ttf');
+	src:url('../fonts/Lato/Lato-Light.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src:url('../fonts/Raleway/Raleway-Light.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -134,7 +140,7 @@ border: 0px solid transparent;
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #16a085;
+	background-color: #328136;
 	color: white;
 }
 
@@ -244,7 +250,7 @@ blockquote cite:before {
 
 /* Links */
 a {
-    color: #3498db;
+    color: #328136;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -256,9 +262,17 @@ a {
 
 a:hover,
 a:focus {
-    color: #c0392b;
+    color: #333;
     text-decoration: none;
     outline: 0;
+}
+
+#footerwrap a {
+    text-decoration: underline;
+    color: #fff;
+}
+#footerwrap a:hover {
+    color: #328136;
 }
 
 a:before,
