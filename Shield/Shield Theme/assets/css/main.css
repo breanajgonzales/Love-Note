@@ -343,6 +343,9 @@ a:after {
 	line-height: 30px;
 	margin-bottom: 10px;
 }
+#greywrap .icon-flag{
+    font-size:50px;
+}
 
 #footerwrap {
 	background: #2b2b2b;
@@ -435,7 +438,7 @@ a:after {
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider6.jpg')
+	background-image: url('../img/bg/stw.jpg')
 }
 
 
